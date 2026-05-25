@@ -12,11 +12,11 @@ const WEDDING_DATE = new Date('2026-11-25T19:00:00+05:30');
 
 // The WhatsApp phone number that will receive RSVP.
 // IMPORTANT: Use country code first, no leading "+" or spaces (e.g. '919876543210')
-const WHATSAPP_PHONE = '918094803454';
+const WHATSAPP_PHONE = '919876543210';
 
 // The WhatsApp phone number that will receive Sangeet performance & music registrations.
 // IMPORTANT: Use country code first, no leading "+" or spaces (e.g. '919876543210')
-const SANGEET_REGISTRATION_PHONE = '917240743706';
+const SANGEET_REGISTRATION_PHONE = '919123456789';
 
 
 /* ── DOM HELPERS ───────────────────────────────────────────────────────── */

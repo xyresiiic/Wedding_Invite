@@ -78,39 +78,6 @@
 
 <body>
 
-  <!--
-    ========================================================================
-    WEDDING INVITATION DEVELOPER GUIDE & INSTRUCTIONS
-    ========================================================================
-    Welcome! This website is built with vanilla HTML, CSS, and JavaScript.
-    Here is a quick guide on how to edit and customize this invite:
-
-    1. GLOBAL CONFIGURATION (Dates, WhatsApp Numbers, Passcodes):
-       Open 'script.js' and modify the constants at the top:
-       - WEDDING_DATE: The countdown target date and time.
-       - WHATSAPP_PHONE: The phone number that receives RSVP and Sangeet registrations.
-       - PLAYLIST_ACCESS_CODE: The passcode to unlock the Sangeet playlist admin details.
-
-    2. CUSTOMIZING THE BRIDE & GROOM:
-       - Search for 'Hitanshi' and 'Shashank' in this file to edit names, bios, or roles.
-       - The bride/groom portrait images are in the './photos/' folder and referenced
-         around lines 150-178.
-
-    3. GUEST WELCOME BANNER FEATURE:
-       - Pass "?guest=YourName" in the URL query string (e.g. website.com/?guest=Uncle+Raj)
-         to dynamically display a personalized welcome banner at the top of the page.
-
-    4. CHANGING THE BACKGROUND THEME GRAPHICS:
-       - Open 'style.css' and navigate to the bottom section: 'SHIVA-PARVATI BACKGROUND WATERMARK THEME'.
-       - You can change the background images for each section or adjust the opacity
-         values (e.g. increase opacity to make the watermarks more visible).
-
-    5. EDITING EVENTS & RSVP DETAILS:
-       - Timings, dates, and locations can be modified under each '<article class="event-card">'
-         starting around line 271.
-    ========================================================================
-  -->
-
   <!-- Guest Banner: Shows personalized invitation greeting if 'guest' query param is set -->
   <div id="guest-banner" role="status" aria-live="polite"></div>
 
@@ -118,7 +85,7 @@
 
   <!-- ═══ NAV ═══ -->
   <nav id="main-nav" role="navigation" aria-label="Main navigation">
-    <div class="nav-brand">H & S</div>
+    <div class="nav-brand">P & A</div>
 
     <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -142,11 +109,7 @@
   <!-- ═══ HERO ═══ -->
   <section id="hero" aria-label="Wedding introduction">
     <div class="hero-bg"></div>
-    <!--
-    SHIVA-PARVATI BACKGROUND IMAGE — add your image to ./photos/ folder
-    and uncomment / edit the style in style.css .hero-divine-bg
-    The placeholder div below is ready for your image:
-  -->
+
     <div class="hero-divine-bg" aria-hidden="true"></div>
     <div class="hero-noise"></div>
     <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>

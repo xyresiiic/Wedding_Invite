@@ -14,8 +14,7 @@ const WEDDING_DATE = new Date('2026-11-25T19:00:00+05:30');
 // IMPORTANT: Use country code first, no leading "+" or spaces (e.g. '919876543210')
 const WHATSAPP_PHONE = '919876543210';
 
-// The WhatsApp phone number that will receive Sangeet performance & music registrations.
-// IMPORTANT: Use country code first, no leading "+" or spaces (e.g. '919876543210')
+
 const SANGEET_REGISTRATION_PHONE = '919123456789';
 
 
@@ -401,8 +400,6 @@ function showFieldError(input, message) {
 }
 
 /* ── SANGEET PERFORMANCE REGISTRATION ──────────────────────────────────── */
-// Validates the inputs for the Sangeet registration form and redirects the
-// user to WhatsApp with a pre-filled message detailing their performance.
 function submitSangeetEntry() {
   const name      = $('#perf-name')?.value.trim() || '';
   const phone     = $('#perf-phone')?.value.trim() || '';
